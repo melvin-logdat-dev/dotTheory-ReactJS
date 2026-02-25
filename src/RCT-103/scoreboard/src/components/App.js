@@ -38,8 +38,8 @@ const App = () => {
 
   useEffect(() => {
     const scores = players.map((player) => player.score);
-    const sorted = [...scores].sort((a, b) => b - a);
-    setTopScores(sorted.slice(0, 3));
+    const uniqueSorted = [...new Set(scores)].sort((a, b) => b - a);
+    setTopScores(uniqueSorted.slice(0, 3));
   }, [players]);
 
   const handleRemovePlayer = (id) => {
