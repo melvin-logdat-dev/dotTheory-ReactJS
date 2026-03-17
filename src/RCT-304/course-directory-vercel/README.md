@@ -1,8 +1,11 @@
-# React + Vite
+## 🚀 Deployment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project has been successfully deployed to **Vercel**.
 
-Currently, two official plugins are available:
+- ✅ React app deployed at: [https://front-end-course-directory.vercel.app/](https://front-end-course-directory.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Local Deployment
+To build and preview locally, make sure to run:
+
+```bash
+npm run build
